@@ -1,0 +1,16 @@
+﻿<Window x:Class="Semana3.Estudiantes"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Semana3"
+        mc:Ignorable="d"
+        Title="Estudiantes" Height="450" Width="800">
+    <Grid>
+        <StackPanel>
+            <Button Content="DataTable" HorizontalAlignment="Left" Margin="150,66,0,0" VerticalAlignment="Top" Click="Button_Click" Width="156"/>
+            <Button Content="DataGrid" HorizontalAlignment="Left" Margin="471,-20,0,0" VerticalAlignment="Top" Click="Button_Click1" Width="156"/>
+            <DataGrid Name="dgvDemo" />
+        </StackPanel>
+    </Grid>
+</Window>
